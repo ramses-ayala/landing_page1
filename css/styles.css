@@ -1,0 +1,95 @@
+html{
+    font-size: 62.5%;
+    box-sizing:border-box;
+}
+
+*, *:before, *:after{
+	box-sizing:inherit;
+} 
+
+
+h1,p{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-main{
+    background-image: url(../img/playa.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content-main{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.content-main h1{
+    font-size: 5rem;
+}
+
+.content-main p,a{
+    font-size: 1.8rem;
+}
+
+a{
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    color: #fff;
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:  rgb(182, 161, 137);
+}
+
+.content{
+    line-height: 2.6rem;
+    padding: 2.8rem;
+}
+
+.content-box-first div:nth-child(odd){
+     background-color: rgb(182, 161, 137);
+}
+
+.content-box-first div:nth-child(even){
+    background-color: rgb(245, 242, 238);
+    color: rgb(117, 102, 85);
+}
+
+
+
+.content-one p{
+    color: #fff;
+}
+
+.content-father{
+    display: flex;
+}
+
+
+
+.content-father div:nth-child(odd){
+    background-color: rgb(182, 161, 137);
+    color: #fff;
+}
+
+.content-father div:nth-child(even){
+    color: rgb(117, 102, 85);
+}
